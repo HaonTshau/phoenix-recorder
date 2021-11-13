@@ -15,3 +15,11 @@ screenRecorderMain.stop();
 2.首先按avi编码循环持续压制，持续存储到硬盘
 3.使用ffmpeg.exe压缩转换成flv格式，压缩率30:1，即将30M的avi视频能压缩到1M的flv，且播放效果损失不太大
 4.整个过程都是在后台完成
+
+
+
+#编译
+E:\springboottest\phoenix-recorder-master\phoenix-recorder\src>javac phoenix\record\run\recorder\StartRecorder.java -encoding utf8 -cp .;
+
+#运行
+E:\springboottest\phoenix-recorder-master\phoenix-recorder\src>java phoenix.record.run.recorder.StartRecorder -cp .;
